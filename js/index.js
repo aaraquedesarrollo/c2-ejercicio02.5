@@ -17,3 +17,5 @@ const apellido2 = "Falciani";
 
 printarPorConsola(esItaliano(apellido1));
 printarPorConsola(esItaliano(apellido2));
+printarPorConsola(esItaliano("Araque"));
+printarPorConsola(esItaliano("Jimenezi"));
