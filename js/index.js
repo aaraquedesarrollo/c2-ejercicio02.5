@@ -1,6 +1,4 @@
-function esItaliano(apellido) {
-  return apellido.endsWith("i");
-}
+const esItaliano = (apellido) => apellido.endsWith("i");
 
 function printarPorConsola(boolean) {
   console.log(
