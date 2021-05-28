@@ -1,15 +1,13 @@
-
-function esItaliano (apellido) {
+function esItaliano(apellido) {
   return apellido.endsWith("i");
 }
 
 function printarPorConsola(boolean) {
-  if (boolean) {
-    console.log("Este apellido tiene muchas probabilidades de ser italiano")
-  }
-  else {
-    console.log("Este apellido podría ser de cualquier país");
-  }
+  console.log(
+    boolean
+      ? "Este apellido tiene muchas probabilidades de ser italiano"
+      : "Este apellido podría ser de cualquier país"
+  );
 }
 
 const apellido1 = "Gonzalez";
