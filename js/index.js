@@ -1,12 +1,11 @@
 const esItaliano = (apellido) => apellido.endsWith("i");
 
-function printarPorConsola(boolean) {
+const printarPorConsola = (boolean) =>
   console.log(
     boolean
       ? "Este apellido tiene muchas probabilidades de ser italiano"
       : "Este apellido podría ser de cualquier país"
   );
-}
 
 const apellido1 = "Gonzalez";
 const apellido2 = "Falciani";
